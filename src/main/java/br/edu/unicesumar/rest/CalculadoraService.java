@@ -12,7 +12,7 @@ public class CalculadoraService {
 	@Path("/teste/{param1}/{param2}")
 	public Response olaMundo(@PathParam("param1") String mensagem1, @PathParam("param2") String mensagem2) {
 		
-		String texto = "ola: mensagem 1 " + mensagem1 + " - " + mensagem2;
+		String texto = "ola unicesumar  " + mensagem1 + " - " + mensagem2;
 		
 		return Response.status(200).entity(texto).build();
 	}
