@@ -17,7 +17,7 @@ public class ProdutoDao extends DAO {
 	public List<Produto> list() {
 		EntityManager manager = getEntityManager();
 
-		return manager.createQuery("from Produto").getResultList();
+		return manager.createQuery("from produto").getResultList();
 	}
 
 }
