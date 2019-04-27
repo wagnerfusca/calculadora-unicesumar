@@ -15,7 +15,7 @@ import br.edu.unicesumar.model.Produto;
 @Path("/json/produto")
 public class ProdutoService {
 
-	private ProdutoDao dao = new ProdutoDao();
+	ProdutoDao dao = new ProdutoDao();
 	
 	@GET
 	@Path("/get")
