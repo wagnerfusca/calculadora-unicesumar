@@ -14,7 +14,9 @@
 
 	<context-param>
 		<param-name>resteasy.resources</param-name>
-		<param-value>br.edu.unicesumar.rest.CalculadoraService</param-value>
+		<param-value>br.edu.unicesumar.rest.CalculadoraService, 
+					 br.edu.unicesumar.rest.ProdutoService 
+		</param-value>
 	</context-param>
 
 	<listener>
